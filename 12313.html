@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tổng 30 số tự nhiên đầu tiên chia hết cho 7</title>
+</head>
+<body>
+<script>
+    let hihi = 0, uy =0
+    let uydz =""
+    for (let i=1; ; i++){
+        if(i%7==0){
+            uydz += i+" "
+            console.log(uydz)
+            uy += i
+            hihi++
+            if(hihi==30) break
+        }
+    }
+    document.write(uydz+"<br>")
+    document.write("Tổng : "+ uy)
+    
+</script>
+</body>
+</html>
